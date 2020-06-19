@@ -1,0 +1,22 @@
+#端口号
+server:
+  port: 8018
+
+spring:
+  application:
+    name: springboot-mybatis-neo4j #服务名
+
+  datasource:
+    driver-class-name: org.neo4j.jdbc.http.HttpDriver
+    name: neo4j
+    password: 123456
+    url: jdbc:neo4j:http://localhost:7474
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+
+
+
+
+
